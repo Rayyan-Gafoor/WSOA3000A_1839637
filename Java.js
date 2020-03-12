@@ -14,15 +14,15 @@ button.addEventListener ("click", function(e)
 });
 
 
-const menubar= document.head.children[1]
-console.log(button);
+// const menubar= document.head.children[1]
+// console.log(button);
 
-menubar.addEventListener("click", function(e)
-{
-    alert("POP-UP Menu");
-}
+// menubar.addEventListener("click", function(e)
+// {
+//     alert("POP-UP Menu");
+// }
 
-);
+// );
 
 //  <script id="rendered-js">
 // var button= document.createElement("button");
