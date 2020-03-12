@@ -7,11 +7,23 @@
  }
 button.addEventListener ("click", function(e)
 {
-    const colour= 'rgb('+ random(255) + ','+ random(255)+','+ random(255) +')';
+    const colour= 'rgb('+(random(50)+200) + ','+ (random(50)+200)+ ','+ (random(50)+200) +')';
     document.body.style.backgroundColor= colour;
      //alert("change colour");
      console.log("pressed");
 });
+
+
+const menubar= document.head.children[1]
+console.log(button);
+
+menubar.addEventListener("click", function(e)
+{
+    alert("POP-UP Menu");
+}
+
+);
+
 //  <script id="rendered-js">
 // var button= document.createElement("button");
 // button.innerHTML = "Menu";
