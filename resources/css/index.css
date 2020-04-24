@@ -1,17 +1,28 @@
-#social-meadia-tags{
-    height: 84px;
-    background: url(images/flower.jpg) repeat-x;
-}
-.table{
-    display: table;
-    margin: 0 auto;
-}
-
-ul#horizontal-list{
-    min-width: 696px;
-    list-style: none;
-    padding-top: 20px;
-}
-ul#horizontal-list li {
-    display: inline;
-}
+body {
+    margin: 0;
+    font-family: Times, Helvetica, sans-serif;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: rgb(172, 124, 138);
+  }
+  
+  .topnav a {
+    float: left;
+    color: #6d0625;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .topnav a:hover {
+    background-color: #fca2c8;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: rgb(114, 36, 68);
+    color: rgb(196, 196, 196);
+  }

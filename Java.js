@@ -1,4 +1,4 @@
- const button= document.body.children[0];
+ const button= document.body.children[1];
  console.log(button);
 
  function random(number)
