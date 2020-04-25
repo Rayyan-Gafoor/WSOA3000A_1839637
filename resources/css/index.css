@@ -3,12 +3,12 @@ body {
     font-family: Times, Helvetica, sans-serif;
   }
   
-  .topnav {
+  .MenuBar {
     overflow: hidden;
     background-color: rgb(172, 124, 138);
   }
   
-  .topnav a {
+  .MenuBar a {
     float: left;
     color: #6d0625;
     text-align: center;
@@ -17,12 +17,12 @@ body {
     font-size: 20px;
   }
   
-  .topnav a:hover {
+  .MenuBar a:hover {
     background-color: #fca2c8;
     color: black;
   }
   
-  .topnav a.active {
+  .MenuBar a.active {
     background-color: rgb(114, 36, 68);
     color: rgb(196, 196, 196);
   }
