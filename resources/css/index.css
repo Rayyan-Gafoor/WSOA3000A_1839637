@@ -1,33 +1,85 @@
 body {
     margin: 0;
-    font-family: Times, Helvetica, sans-serif;
+    /*font-family: Times, Helvetica, sans-serif;*/
     color: rgb(114, 36, 68) ; 
     background-color:rgb(255, 236, 242) ;
+    padding: 0;
+  }
+  nav{
+      width: 240px;
+      background-color: white;
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      z-index: 1000;
+      transition: all ease-in-out 200ms;
+      -webkit-transition: all ease-in-out 200ms;
+  }
+  nav img{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 30px;
+
+  }
+  nav ul{
+    padding-left: 30px;
+    padding-top: 60px;
+  }
+  nav ul li{
+    list-style: none;
+   padding: 4px 0px;
+  }
+
+  nav ul li a{
+    font-family: Arial;
+    text-decoration: none;
+    font-weight: 300;
+    color: teal;
+    text-transform: uppercase;
+  }
+  #toggleMenu {
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    background-image: url(../images/blogs.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1050;
+    cursor: pointer;
+    border: 10px solid #3a0012;
+    border-radius: 2px ;
+    transition: all ease-in-out 200ms;
+    -webkit-transition: all ease-in-out 200ms;
+  }
+  #toggleMenu :hover {
+    opacity: 0.7;
   }
 
   .Header{
     background-color:rgb(172, 124, 138);
     text-align: left;
-    padding: 5px ;
-    text-decoration-line: underline ;
-    text-decoration-style: solid;
+    padding: 0.5px ;
     text-decoration-color:  rgb(114, 36, 68) ;
     
-    font:"Fire Sans";
-    font-size:   20px ;
-    font-style: oblique 60deg ;
-    font-stretch: ultra-expanded;
+    /*font-size:   20px ;
+    font-style: oblique 60deg ;*/
+
 
   }
   
   .MenuBar {
     overflow: hidden;
-    background-color: rgb(172, 124, 138);
+    background-color: rgb(158, 70, 95);
   }
   
   .MenuBar a {
     float: left;
-    color: #6d0625;
+    color: #3a0012;
     text-align: center;
     padding: 10px 20px;
     text-decoration: none;
