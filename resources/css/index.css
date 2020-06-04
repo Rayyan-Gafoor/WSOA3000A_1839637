@@ -98,6 +98,10 @@ nav ul li a{
   color: rgb(196, 196, 196);
 }
 
+
+
+
+/* FLEX BOX LAYOUT */
 .Content{
   float: left;
   width: 33.33%;
@@ -110,7 +114,7 @@ nav ul li a{
 .maincontainer{
   display: flex;
   border: 3px  rgb(134, 0, 74);
-  padding:200px
+  /*padding:200px*/
 }
 
 .maincontainer section section{
@@ -126,12 +130,31 @@ nav ul li a{
 .secondarycontainer2{
   display: flex;
   flex-direction: column;
+  width: 50%;
 }
+
 .About{
   flex: 1px;
+  
 }
 .Recents{
+  display: flex;
+  flex-direction: row;
   flex: 1px;
+  height: 150%;
+}
+
+.Recents1{
+    display: flex;
+    flex-direction: column;
+    width: 150%;
+    height: 150%;
+}
+.Recents2{
+  display: flex;
+  flex-direction: column;
+  width: 150%;
+  height: 150%;
 }
 .social-meadia-tags{
   flex: 1px;
