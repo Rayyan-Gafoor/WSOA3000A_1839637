@@ -1,12 +1,12 @@
 @media(min-width:768px){
-  /*  
+   
 body {
   margin: 0;
-  /*font-family: Times, Helvetica, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   color: rgb(114, 36, 68) ; 
   background-color:rgb(255, 236, 242) ;
   padding: 0;
-}*/
+}
 nav{
   display: flex;
   flex-direction: column;

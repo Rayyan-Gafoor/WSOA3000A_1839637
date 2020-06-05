@@ -83,9 +83,6 @@
         width: 50%;
 
     }
-    .Recents1 section{
-        /* padding: 50%; */
-    }
     .Recents2{
         display: flex;
         flex: 1;
@@ -96,9 +93,10 @@
         width: 50%;
         
     }
-    .Recents2 section{
-    
-        /* padding: 50%; */
+
+    .Recent_Content{
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
     }
 
     .Recent_Blogs{
@@ -107,12 +105,10 @@
         border: 1px rgb(148, 24, 71) solid ;
         background-color: rgba(173, 31, 85, 0.473);
         z-index: 2000;
-         padding: 50px; 
+         padding: 60px; 
          
     }
-    .Recent_Content{
-        color: white;
-        font-family: 'Times New Roman', Times, serif;
+    
         
     }
     .Recent_Journal{
@@ -121,14 +117,14 @@
         border: 1px rgb(148, 24, 71) solid ;
         background-color: rgba(226, 156, 50, 0.521);
         z-index: 2000;
-        padding: 50px;
+        padding: 60px;
     }
     .Recent_Poetry{
         /* background-image: url("resources/images/css/ben-mcleod-0JVpOQY3AoA-unsplash.jpg"); */
         border: 1px rgb(148, 24, 71) solid ;
         background-color: rgba(95, 158, 160, 0.5);
         z-index: 2000;
-        padding: 50px;
+        padding: 60px;
     }
     .Recent_Warstory{
         /* background-image: url("resources/images/war/food-city-man-person-35612.jpg"); */
@@ -139,4 +135,30 @@
     }
 
 
+    /* .War_slideshow { 
+        position:relative; height:500px; width:700px; outline: 1px solid rgba(107, 33, 57, 0.678); 
+        }
+    .War_slideshow img { 
+        position:absolute; left:0; top:0; transition:opacity 1s; opacity:1; 
+        }
+    .War_slideshow img.is-hidden {
+        opacity:0; 
+        } */
+        
+    .War_slideshow{
+        background-color: black;
+        padding: 10px;
+        display: flexbox;
+        flex-direction: column;
+        flex: 1;
+        align-items: center;
+        align-content: center;
     }
+    .War_slideshow img{
+        align-self: center;
+        padding: 10px;
+        flex: 1px;
+        border: 1px rgb(116, 3, 56) solid;
+    }
+
+}

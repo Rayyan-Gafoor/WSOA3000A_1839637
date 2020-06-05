@@ -14,6 +14,9 @@ button.addEventListener ("click", function(e)
 });
 
 
+
+
+
 // const menubar= document.head.children[1]
 // console.log(button);
 
@@ -37,3 +40,23 @@ button.addEventListener ("click", function(e)
 // }
 // );
 // </script>
+
+
+//Slideshow
+
+
+// var root = document.querySelector('.War_slideshow');
+// var els = root.querySelectorAll(':not(:first-child)');
+// for (i=0; i < els.length; i++) {
+//   els[i].classList.add('is-hidden');
+// }
+// root.addEventListener('transitionend', function(){
+//   root.insertBefore(root.querySelector(':first-child.is-hidden'), null);
+// });
+// setInterval(function(){
+//   root.querySelector(':first-child').classList.add('is-hidden');
+//   root.querySelector(':nth-child(2)').classList.remove('is-hidden');
+// }, 2000)
+
+
+
