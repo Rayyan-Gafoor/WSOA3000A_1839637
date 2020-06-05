@@ -1,15 +1,18 @@
 @media(min-width:768px){
-    
+  /*  
 body {
   margin: 0;
-  /*font-family: Times, Helvetica, sans-serif;*/
+  /*font-family: Times, Helvetica, sans-serif;
   color: rgb(114, 36, 68) ; 
   background-color:rgb(255, 236, 242) ;
   padding: 0;
-}
+}*/
 nav{
+  display: flex;
+  flex-direction: column;
     width: 240px;
-    background-color: white;
+    background-color: rgba(165, 56, 83, 0.603);
+    border: 1.5px #ff0051 solid;
     position: fixed;
     top: 0;
     bottom: 0;
@@ -19,33 +22,58 @@ nav{
     -webkit-transition: all ease-in-out 200ms;
 }
 nav img{
-  display: block;
+  display: flex;
+  border: 1px rgb(247, 125, 165) solid;
+  border-radius: 110%;
+  
   width: 80%;
-  margin: 0 auto;
+  margin: 10px auto;
   padding-top: 30px;
 
 }
 nav ul{
+  width: 75%;
   padding-left: 30px;
   padding-top: 60px;
+
 }
 nav ul li{
+  border: 10px rgb(172, 71, 104) solid; 
+  padding: 25px;
+  text-align: center;
   list-style: none;
- padding: 4px 0px;
+  padding: 4px 0px;
+   background-color: rgb(255, 170, 199);
+}
+nav ul li:hover{
+  background: radial-gradient( rgb(255, 155, 180),rgb(172, 30, 96));
+  text-shadow: rgb(196, 196, 196);
+  border-bottom: 1.5px rgb(0, 0, 0) solid;
+  border-top: 1.5PX black solid;
+  
 }
 
+
 nav ul li a{
-  font-family: Arial;
+  
+  padding: 10px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
   text-decoration: none;
   font-weight: 300;
-  color: teal;
+  color: rgb(92, 0, 46);
   text-transform: uppercase;
 }
+nav ul li a:hover{
+  text-shadow: white;
+
+}
+
 #toggleMenu {
-  width: 20px;
-  height: 20px;
-  background-color: #fff;
-  background-image: url(../images/blogs.jpg);
+  width: 40px;
+  height: 40px;
+  background-color: rgb(119, 24, 60);
+  background-image: url(../images/icons/icons8-menu-256.png);
   background-size: cover;
   background-repeat: no-repeat;
   position: fixed;
@@ -53,18 +81,18 @@ nav ul li a{
   left: 0px;
   z-index: 1050;
   cursor: pointer;
-  border: 10px solid #3a0012;
-  border-radius: 2px ;
+  /*border: 10px solid #3a0012;*/
+  /*border-radius: 2px ;*/
   transition: all ease-in-out 200ms;
   -webkit-transition: all ease-in-out 200ms;
 }
 #toggleMenu :hover {
-  opacity: 0.7;
+  opacity: 5;
 }
 
 .Header{
   background-color:rgb(172, 124, 138);
-  text-align: left;
+  text-align: center;
   padding: 0.5px ;
   text-decoration-color:  rgb(114, 36, 68) ;
   
@@ -77,13 +105,14 @@ nav ul li a{
 .MenuBar {
   overflow: hidden;
   background-color: rgb(158, 70, 95);
+  text-align: center;
 }
 
 .MenuBar a {
   float: left;
   color: #3a0012;
   text-align: center;
-  padding: 10px 20px;
+  padding: 10px 40px;
   text-decoration: none;
   font-size: 20px;
 }
@@ -102,70 +131,5 @@ nav ul li a{
 
 
 /* FLEX BOX LAYOUT */
-.Content{
-  float: left;
-  width: 33.33%;
-  padding: 20px
-}
 
-.layout{
-  justify-content: center;
-}
-.maincontainer{
-  display: flex;
-  border: 3px  rgb(134, 0, 74);
-  /*padding:200px*/
-}
-
-.maincontainer section section{
-  border: 1px rgb(104, 0, 31) solid;
-  padding: 10px;
-}
-.secondarycontainer1{
-  display: flex;
-  flex-direction: row;
-  
-}
-
-.secondarycontainer2{
-  display: flex;
-  flex-direction: column;
-  width: 50%;
-}
-
-.About{
-  flex: 1px;
-  
-}
-.Recents{
-  display: flex;
-  flex-direction: row;
-  flex: 1px;
-  height: 150%;
-}
-
-.Recents1{
-    display: flex;
-    flex-direction: column;
-    width: 150%;
-    height: 150%;
-}
-.Recents2{
-  display: flex;
-  flex-direction: column;
-  width: 150%;
-  height: 150%;
-}
-.social-meadia-tags{
-  flex: 1px;
-}
-.Contact{
-  background-image: url("../images/profile.jpg");
-  background-size:cover;
-  flex: 1px;
-  height: 110%;
-  width:90%;
-   
-  
-}
 }

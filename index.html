@@ -9,6 +9,7 @@
     <script src="Java.js" type="module" async></script>
     <script src="index.css" type="module" async></script>
     <link rel="stylesheet" type="text/css" href="resources/css/index.css" />
+    <link rel="stylesheet" type="text/css" href="layout.css" />
 
 </head>
 
@@ -19,6 +20,7 @@
     <nav id="Menu">
         <img src="resources/images/profile.jpg">
         <ul>
+            
             <li>
                 <a class="active" href="index.html">Home</a>
             </li>
@@ -32,6 +34,9 @@
                 <a href="resources/QuarantineDiaries/Journal.html">Journal</a>
             </li>
             <li>
+                <a href="resources/war/War.html">War Journal</a>
+            </li>
+            <li>
                 <a href="#about">About</a>
             </li>
             <li>
@@ -42,56 +47,27 @@
 
     </nav>
     <script>
-        var togfleStatus= 1;
+        var togfleStatus= "Closed";
         function toggleMenu()
         {
-            if(togfleStatus== 1)
+            if(togfleStatus== "Opened")
             {
                 document.getElementById("Menu").style.left ="-240px";
-                togfleStatus= 0;
+                togfleStatus= "Closed";
             }
-            else if(togfleStatus==0)
+            else if(togfleStatus=="Closed")
             {
                 document.getElementById("Menu").style.left ="0px";
-                togfleStatus= 1;
+                togfleStatus= "Opened";
             }
         }
     </script>
 
-    <section class="Header">
-        <figure>
-            <!-- <img src="resources/images/LOGO.png"
-               alt=":) see this text when n image is loaded "
-               width="400"
-                 height="400"> -->
-                 <img src="resources/images/flower.jpg"
-           alt=":) see this text when n image is loaded "
-           width="300"
-             height="100">
-             <img src="resources/images/flower.jpg"
-           alt=":) see this text when n image is loaded "
-           width="300"
-             height="100">
-             <img src="resources/images/flower.jpg"
-           alt=":) see this text when n image is loaded "
-           width="300"
-             height="100">
-             <img src="resources/images/flower.jpg"
-           alt=":) see this text when n image is loaded "
-           width="300"
-             height="100">
-             <img src="resources/images/flower.jpg"
-           alt=":) see this text when n image is loaded "
-           width="300"
-             height="100">
-             <img src="resources/images/flower.jpg"
-           alt=":) see this text when n image is loaded "
-           width="300"
-             height="100">
-            </figure>
+    <!-- <section class="Header">
+        
 
-    </section>
-    <section class="MenuBar">
+    </section> -->
+    <!-- <section class="MenuBar">
         <a class="active" href="index.html">Home</a>
         <a href="resources/blogs/Blogs.html">Blogs</a>
         <a href="resources/Poetry/Poems.html">Poetry</a>
@@ -100,101 +76,121 @@
         <a href="#contact">Contact</a>
         
         
-    </section>
+    </section> -->
     <!-- <button type= "button">PRESS ME</button> -->
     
 <section class="layout">
-<section class="maincontainer">
-    <section class="secondarycontainer1">
 
-        <section ID="social-meadia-tags">
-            <section class="table">
-                <ul ID="horizontal-list">
-                <li><a href="https://www.instagram.com/justzariyah_warrior_poet/">Instagram</a></li>
-                <li><a href="https://www.instagram.com/justzariyah_warrior_poet/">FaceBook</a></li>
-                <!-- will be different social media links once created -->
-                <li><a href="https://www.instagram.com/justzariyah_warrior_poet/">Twitter</a></li>
-                 </ul>
-        
-             </section>
-        
-         </section>
+    <section class="maincontainer">
+
+        <section class="Box1">
             
+            <section class="About">
+
+    
+                <h2>About Me!</h2>
+                <P>
+                    Hi there, My name is Zariyah. Welcome to my website. I am a historian as well as war photographer. I've recently decided to start writing  poetry. I've been classified by society as an introvert, and honestly they are right. I dont really believe in religion, but i do believe in a higher power.<br>
+                    Im still kinda trying to figure out where I fit into this universe as well as  my purpose. And well I guess for now I hope enjoy my content.
+            
+                </P>
+            
+                "Art is individualism, and individualism is a disturbing and disintegrating force. There lies its immense value.
+                For what it seeks is to disturb monotony of type, slavery of custom, tyranny of habit, 
+                and the reduction of man to the level of a machine.”<br>
+                ~ Oscar Wilde<br>
+                (1854-1900)<br>
+                The Soul of a Man Under Socialism, 1891
+    
+    
+            </section>
+
+        </section>
+        
+
+    <section class="Recents">
+        
+        <section class="Recents1">
+                <section class="Recent_Blogs">
+                        <section class="Recent_Content">
+
+                            <h3>Pre-digital Geographies</h3>
+                            <p>
+                                This blog will once again cover the paper, "Towards a study of information geographies ", wriiten by Mark Graham et al's.
+                                We will be looking at the difference in geographies before and after the information revolution. How information was/is collected, controlled and used. 
+                                How the change in geogrphy was brought about and the main causes of this changed.
+                                </p>
+                            <a href="resources/blogs/blog11.html">
+                                >More...
+                            </a>
+                            
+                            
+                        </section>
+                </section>
+
+                <section class="Recent_Journal">
+                       <section class="Recent_Content">
+                            <h3>The Last Letter</h3>
+                            <p>
+                                As a war journalist and photographer my life is constantly at risk. Everytime, before I go onto the battlefield, I attempt to write a letter.
+                                At first the letters were meant for my mother, but even then I had nothing to say. How exatly to speak to someone after you have died.
+                            </p>
+                            <a href="resources/QuarantineDiaries/Journal.html">
+                                >More...
+                            </a>
+                        </section>
+                </section>
+        </section>
+        
+        <section class="Recents2">
+                <section class="Recent_Poetry">
+                    <section class="Recent_Content">
+                        <h3>The Rainbow<h3>
+                        <a href="resources/Poetry/Poem7.html">
+                            >More...
+                        </a>
+                    </section>
+                </section>
+
+                <section class="Recent_Warstory">
+                    <section class="Recent_Content">
+                        <h3>The Rainbow<h3>
+                            <a href="resources/War/Poem7.html">
+                                >More...
+                            </a>
+                    </section>
+                </section>
+        </section>
+            
+
+    </section>
+
+                
         <section class="Contact">
+            <section ID="social-meadia-tags">
+            
+                <ul ID="horizontal-list">
+                <li><a href="https://www.instagram.com/justzariyah_warrior_poet/"><img src="resources/images/icons/icons8-instagram-480.png" height="32" width="32"/></a></li>
+                <li><a href="https://www.instagram.com/justzariyah_warrior_poet/"><img src="resources/images/icons/icons8-facebook-480.png" height="32" width="32"/></a></li>
+                <li><a href="https://www.instagram.com/justzariyah_warrior_poet/"><img src="resources/images/icons/icons8-twitter-480.png" height="32" width="32"/></a></li>
+                </ul>
+        
+        </section>
             <p>
                 Contact details:
                 <ul>
                     <li>
-                        <p>
-                            Instagram: <a href="https://www.instagram.com/justzariyah_warrior_poet/">@justzariyah_warrior_poet</a>
-        
-                        </p> 
+                    <p>
+                        <img src="resources/images/icons/icons8-email-100.png" height="32" width="32"/>: zariyah.warrior.poet@gmail.com
+                    </p> 
                     </li>
                     <li>
-                       <p>
-                        email: zariyah.warrior.poet@gmail.com
-                       </p> 
-                    </li>
-                   
-                    <li>
-                        Phone Number: 026 010 1999 
+                        <img src="resources/images/icons/icons8-phone-96.png" height="32" width="32"/>: 026 010 1999 
                     </li>
                 </ul>
             </p>
         </section>
 
-    </section>
-
-    <section class="secondarycontainer2">
-        <section class="About">
-
-        
-            <h2>About Me!</h2>
-            <P>
-                 Hi there, My name is Zariyah. Welcome to my website. I am a historian as well as war photographer. I've recently decided to start writing  poetry. I've been classified by society as an introvert, and honestly they are right. I dont really believe in religion, but i do believe in a higher power.<br>
-                 Im still kinda trying to figure out where I fit into this universe as well as  my purpose. And well I guess for now I hope enjoy my content.
-        
-            </P>
-        
-            "Art is individualism, and individualism is a disturbing and disintegrating force. There lies its immense value.
-            For what it seeks is to disturb monotony of type, slavery of custom, tyranny of habit, 
-            and the reduction of man to the level of a machine.”<br>
-            ~ Oscar Wilde<br>
-            (1854-1900)<br>
-            The Soul of a Man Under Socialism, 1891
-
-    
-        </section>
-    
-        <section class="Recents">
-
-            <section class="Recents1">
-                    <section class="Recent_Blogs">
-                            Recent_Blogs
-                    </section>
-
-                    <section class="Recent_Journal">
-                            Recent_Journal
-                    </section>
-            </section>
-            
-            <section class="Recents2">
-                    <section class="Recent_Poetry">
-                            Recent_Poetry
-                    </section>
-
-                    <section class="Recent_Warstory">
-                            Recent_Warstory
-                    </section>
-            </section>
-                
-
-        </section>
-
-    </section>
-   
-    
- 
 
 </section>
 </section>
