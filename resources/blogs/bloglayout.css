@@ -1,0 +1,83 @@
+@media(min-width:768px){
+
+    body {
+        margin: 0;
+        /*font-family: Times, Helvetica, sans-serif;*/
+        color: rgb(114, 36, 68) ; 
+        background-color:rgb(255, 236, 242) ;
+        padding: 0;
+        background-image: url("../images/blogs.jpg"); 
+        background-size: cover;
+       
+    }
+    .container{
+        display: flex;
+        padding: 50px;
+        align-items: center;
+    }
+    .mainbox{
+        width: 70%;
+        padding: 20px;
+        display: flex;
+        flex: 10;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgba(172, 35, 87, 0.479);
+    }
+    .blogsbox{
+        display: flex;
+        flex-direction: row;
+        padding: 20px;
+        width: 50%;
+        background-color: rgba(230, 183, 27, 0.973);
+
+    }
+    .blogsbox h1{
+        display: flex;
+        padding:20px;
+        width: 100px;
+        height: 100px;
+
+    }
+    .blogsbox ol{
+        border: 1px rgb(209, 36, 151) solid;
+        padding: 2px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex: 4;
+
+    }
+    .blogsbox ol li{
+        display: flex;
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+        padding: 20px;
+        background-color: rgba(119, 7, 76, 0.87);
+        align-items: center;
+        border: rgb(143, 10, 92);
+
+    }
+    .blogsbox ol:hover{
+        background-color: radial-gradient(rgb(255, 155, 180),rgb(172, 30, 96));
+    }
+    .blogsbox ol li p:hover{
+        color: black;
+        background-color: linear-gradient(rgb(255, 155, 180),rgb(172, 30, 96));
+        text-shadow: black;
+    }
+    .blogsbox ol li p a{
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        text-decoration: none;
+        font-weight: 300;
+        color: rgb(236, 197, 217);
+        text-transform: uppercase;
+    }
+   
+    .futureblogs{
+
+    }
+
+}
