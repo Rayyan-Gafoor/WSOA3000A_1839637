@@ -11,8 +11,9 @@ nav{
   display: flex;
   flex-direction: column;
     width: 240px;
-    background-color: rgba(165, 56, 83, 0.603);
-    border: 1.5px #ff0051 solid;
+    /* background-color: rgba(165, 56, 83, 0.603); */
+    background: linear-gradient(rgb(37, 30, 30), rgb(112, 57, 78));
+    border: 1.5px #420419 solid;
     position: fixed;
     top: 0;
     bottom: 0;
@@ -23,7 +24,7 @@ nav{
 }
 nav img{
   display: flex;
-  border: 1px rgb(247, 125, 165) solid;
+  /* border: 1px rgb(247, 125, 165) solid; */
   border-radius: 110%;
   
   width: 80%;
@@ -70,9 +71,9 @@ nav ul li a:hover{
 }
 
 #toggleMenu {
-  width: 40px;
-  height: 40px;
-  background-color: rgb(119, 24, 60);
+  width: 50px;
+  height: 50px;
+  background-color: rgb(182, 28, 87);
   background-image: url(../images/icons/icons8-menu-256.png);
   background-size: cover;
   background-repeat: no-repeat;
