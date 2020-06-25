@@ -13,7 +13,7 @@ nav{
     width: 240px;
     /* background-color: rgba(165, 56, 83, 0.603); */
     background: linear-gradient(rgb(37, 30, 30), rgb(112, 57, 78));
-    border: 1.5px #420419 solid;
+    border: 3px #da8517b2 solid;
     position: fixed;
     top: 0;
     bottom: 0;
@@ -36,10 +36,12 @@ nav ul{
   width: 75%;
   padding-left: 30px;
   padding-top: 60px;
+  
 
 }
 nav ul li{
-  border: 10px rgb(172, 71, 104) solid; 
+  /* border: 10px rgb(172, 71, 104) solid;  */
+  border: 10px rgb(114, 5, 32) solid;
   padding: 25px;
   text-align: center;
   list-style: none;
@@ -73,7 +75,7 @@ nav ul li a:hover{
 #toggleMenu {
   width: 50px;
   height: 50px;
-  background-color: rgb(182, 28, 87);
+  background-color: rgba(182, 28, 87, 0.329);
   background-image: url(../images/icons/icons8-menu-256.png);
   background-size: cover;
   background-repeat: no-repeat;

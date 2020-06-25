@@ -15,6 +15,7 @@
         display:flex;
         flex-direction: column;
         padding: 50px;
+        
         /*background-color: blue;*/
         align-items: center;
         
@@ -32,9 +33,9 @@
             /* background-color:rgba(255, 236, 242, 0.541); */
             background: linear-gradient(rgba(235, 178, 200, 0.712),rgba(141, 90, 114, 0.582), rgba(229, 190, 213, 0.644));
             background-size: cover;
+            border: 3px rgba(226, 154, 19, 0.747) solid;
             width: 60%;
             align-items: center;
-            border: 20px rgb(151, 32, 72);
             padding: 10px;
             
     }
@@ -52,14 +53,14 @@
 
     .About{
         border:1px #ccc solid;
-        background-color: rgba(77, 52, 67, 0.404);
+        background-color: rgba(59, 24, 45, 0.699);
         text-align: center;
         width: 75%;
-        color: blanchedalmond;
-        text-decoration: blanchedalmond;
+        color: white;
+        /* text-decoration: black; */
         font-family: 'Times New Roman', Times, serif;
         /* font-family: Georgia, 'Times New Roman', Times, serif; */
-        font-style: italic;
+        font-style: bold;
     }
 
     .Recents{
@@ -170,6 +171,12 @@
         padding: 10px;
         flex: 1px;
         border: 1px rgb(116, 3, 56) solid;
+    }
+    .heading{
+        font-size: xx-large;
+        color: white;
+        border-bottom: solid 2px rgba(218, 131, 17, 0.658);
+        border-top: solid 2px rgba(218, 131, 17, 0.658);
     }
 
 }
