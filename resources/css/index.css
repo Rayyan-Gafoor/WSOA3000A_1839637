@@ -93,14 +93,14 @@ nav ul li a:hover{
   opacity: 5;
 }
 
-.Header{
+/* .Header{
   background-color:rgb(172, 124, 138);
   text-align: center;
   padding: 0.5px ;
   text-decoration-color:  rgb(114, 36, 68) ;
   
   /*font-size:   20px ;
-  font-style: oblique 60deg ;*/
+  font-style: oblique 60deg ;
 
 
 }
@@ -130,9 +130,92 @@ nav ul li a:hover{
   color: rgb(196, 196, 196);
 }
 
-
+ */
 
 
 /* FLEX BOX LAYOUT */
 
+}
+
+#DropDownMenu
+{
+    overflow: hidden;
+    background-color: rgba(68, 5, 37, 0.397);
+    margin: 0;
+    width: 100%;
+	padding: 0;
+	z-index: 30}
+
+#DropDownMenu li
+{	
+    border-left: 1px solid goldenrod;
+    border-right: 1px solid goldenrod;
+    margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+    font: bold 11px arial}
+
+#DropDownMenu li a
+{	display: flex;
+	margin: 0 1px 0 0;
+	padding: 10px 40px;
+	width: 100px;
+	/* background: #5970B2; */
+	color: rgb(255, 199, 221);
+	text-align: center;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+#DropDownMenu li a:hover
+{	background: linear-gradient(rgba(85, 6, 55, 0.582),rgb(241, 148, 187));
+    color: goldenrod;
+    
+}
+
+#DropDownMenu section
+{	
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  visibility: hidden;
+  width: 300px;
+	margin: 0;
+	padding: 1px;
+	background: #410528;
+  border: 1px solid #d4a50b;
+  color: #fca7c8;
+  font-size: medium;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+  
+
+#DropDownMenu section a
+{	
+  position: top;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    padding: 5px 10px;
+    width: auto;
+    white-space: nowrap;
+    text-align: left;
+    text-decoration: none;
+    background: #9c1f6425;
+    color: #f79bc1;
+    font-size: 15px;
+    border-top: 1px solid goldenrod;
+    border-bottom: 1px solid goldenrod;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+#DropDownMenu section a:hover
+{	background: radial-gradient( rgb(65, 3, 32),rgb(129, 82, 105));
+    color: rgb(233, 154, 35)}
+.active{
+  background:linear-gradient(#e9a1c5,rgb(99, 16, 44));
 }

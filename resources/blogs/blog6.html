@@ -9,9 +9,33 @@
     <meta name="description" content=" history of fire ">
     <link rel="stylesheet" type="text/css" href="../css/index.css" />
     <link rel="stylesheet" type="text/css" href="bloglayout.css"/>
+    <script src="../../Java.js" tyep="text/javascript" async></script>
     </header>
     <body>
-        <section class="MenuBar">
+
+        <ul id="DropDownMenu">
+            <li><a href="../../index.html" onmouseover="drop('minimenu1')"  onmouseout="close()">Home</a>
+                <section id="minimenu1"  onmouseout="close()">
+                        <a href="../../index.html">About</a>
+                        <a href="../../index.html">Recents</a>
+                        <a href="../../index.html">War Pictures</a>
+                        <a href="../../index.html">Contact</a>
+                </section>
+            </li>
+            <li><a class="active" href="Blogs.html" onmouseover="drop('minimenu2')"  onmouseout="close()">Blogs</a>
+                <section id="minimenu2" onmouseout="close()">
+                            Archive:<br>
+                        <a href="blog17.html">Blog 17-<br> The Multi-Defined Interactvity</a>
+                        <a href="blog16.html">Blog 16-<br> Dealing With Covid-19 As A Student</a>
+                        <a href="blog15.html">Blog 15-<br> Spiders of the Internet</a>
+                </section>
+            </li>
+            <li><a href="../Poetry/Poems.html">Poetry</a></li>
+            <li><a href="../QuarantineDiaries/Journal.html">Journal</a></li>
+            <li><a href="../war/War.html">WarJournal</a></li>
+            <li><a href="../Portfolio/Portfolio.html">Portfolio</a></li>
+        </ul>
+        <!-- <section class="MenuBar">
             <a href="../../index.html">Home</a>
             <a class="active" href="Blogs.html">Blogs</a>
             <a href="../Poetry/Poems.html">Poetry</a>
@@ -20,7 +44,7 @@
             <a href="#about">About</a>
             <a href="#contact">Contact</a>
             
-        </section>
+        </section> -->
     
         <section class="container">
             <section class="mainbox">
