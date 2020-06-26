@@ -2,17 +2,44 @@
 <html>
     <header>
         <title>
-            Blogs
+            War
         </title>
         <meta charset="UTF-8">
     <meta name="author" content="Rayyan Gafoor">
-    <meta name="description" content="Blogs main page">
+    <meta name="description" content="War main page">
     <link rel="stylesheet" type="text/css" href="../css/index.css" />
+    <link rel="stylesheet" type="text/css" href="War.css" />
+    <script src="War.js" type="module" async></script>
+    <script src="War.js" tyep="text/javascript" async></script>
+
     </header>
     
     <body>
-        <body>
-            <section class="MenuBar">
+        <ul id="DropDownMenu">
+            <li><a href="#" onmouseover="drop('minimenu1')"  onmouseout="close()">Home</a>
+                <section id="minimenu1" onmouseover="mcancelclosetime()"  onmouseout="close()">
+                        <a href="#">About</a>
+                        <a href="#">Recents</a>
+                        <a href="#">War Pictures</a>
+                        <a href="#">Contact</a>
+                </section>
+            </li>
+            <li><a href="#" onmouseover="drop('minimenu2')"  onmouseout="close()">Blogs</a>
+                <section id="minimenu2" onmouseover="mcancelclosetime()" onmouseout="close()">
+                            Archive:
+                        <a href="#">Blog one</a>
+                        <a href="#">Blog one</a>
+                        <a href="#">Blog one</a>
+                        <a href="#">Blog one </a>
+                </section>
+            </li>
+            <li><a href="#">Journal</a></li>
+            <li><a href="#">War Journal</a></li>
+            <li><a href="#">Portfolio</a></li>
+        </ul>
+        <section style="clear:both"></section>
+        
+            <!-- <section class="MenuBar">
                 <a href="../../index.html">Home</a>
                 <a href="../blogs/Blogs.html">Blogs</a>
                 <a href="../Poetry/Poems.html">Poetry</a>
@@ -21,10 +48,8 @@
                 <a href="#about">About</a>
                 <a href="#contact">Contact</a>
                 
-            </section>
-        <P>
-            <aside><a href="../../index.html"> HOME</a></aside><br>
-        </P>
+            </section> -->
+
         <h1>War Journal</h1>
         <ol>
             
@@ -38,11 +63,4 @@
                         
     </body>
 
-    <article>
-        <aside>
-            <P><a href="Blogs.html">Blogs</a>
-            </P>
-         </aside>
-        
-    </article>
 </html>

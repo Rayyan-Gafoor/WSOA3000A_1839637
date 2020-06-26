@@ -36,6 +36,33 @@
             </section>
             
         </section>
+        
+    </section>
+    <section class="Slideshow" >
+        <!-- style="max-width: 500px" -->
+        <img class="Slides" src="../images/a-burial-ground-3602002.jpg" style="width: 100%;">
+        <img class="Slides" src="../images/black-and-silver-antique-camera-on-brown-wooden-table-3690052.jpg" style="width: 100%;">
+        <img class="Slides" src="../images/photo-of-old-church-building-under-cloudy-sky-2886268.jpg" style="width: 100%;" >
+
+        <script>
+            var Index= 0;
+            Scroll();
+
+            function Scroll(){
+                var i;
+                var x= document.getElementsByClassName("Slides");
+                for(i= 0; i<x.length; i++){
+                    x[i].style.display= "none";
+                }
+                Index++;
+                if(Index > x.length)
+                {
+                    Index=1
+                }
+                x[Index-1].style.display= "block";
+                setTimeout(Scroll, 4000);
+            }
+        </script>
     </section>
 </section>
         

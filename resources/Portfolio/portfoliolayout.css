@@ -12,6 +12,7 @@
     }
     .container{
         display: flex;
+        flex-direction: column;
         align-self: center;
         align-items: center;
         padding: 30px;
@@ -53,5 +54,12 @@
         padding: 20px;
         width: 25%;
         height: 25%;
+    }
+
+    .Slideshow{
+        display: flex;
+        min-width: 300px;
+        max-width: 300px;
+        background-color: goldenrod;
     }
 }

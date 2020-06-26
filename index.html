@@ -85,14 +85,14 @@
 <section class="layout">
 
     <section class="maincontainer">
-        <h1 class="heading">ZaRiYaH</h1>
+        <h1 class="heading">     ZaRiYaH     </h1>
         <section class="Box1">
             
             
             <section class="About">
 
     
-                <h2 class="heading">About Me!</h2>
+                <h2 class="heading">    About Me!    </h2>
                 <P>
                     Hi there, My name is Zariyah. Welcome to my website. I am a historian as well as war photographer. I've recently decided to start writing  poetry. I've been classified by society as an introvert, and honestly they are right. I dont really believe in religion, but i do believe in a higher power.<br>
                     Im still kinda trying to figure out where I fit into this universe as well as  my purpose. And well I guess for now I hope enjoy my content.
@@ -178,10 +178,32 @@
     <h1 class="heading">WAR PHOTOGRAPHY</h1>
 
     <section class="War_slideshow">
+        <script type="text/javascript">
+            var image1= new Image()
+            image1.src="resources/images/war/duncan-kidd-Cju-BkSkM1k-unsplash.jpg"
+            var image2=new Image()
+            image2.src="resources/images/war/stijn-swinnen-qwe8TLRnG8k-unsplash.jpg"
+            var image3=new Image()
+            image3.src="resources/images/war/specna-arms-kVVKHGNgsAw-unsplash.jpg"
+        </script>
                  
-        <img src="resources/images/war/duncan-kidd-Cju-BkSkM1k-unsplash.jpg"height="500" width="700" class="">
-        <img src="resources/images/war/stijn-swinnen-qwe8TLRnG8k-unsplash.jpg"height="500" width="700"class="hide">
-        <img src="resources/images/war/specna-arms-kVVKHGNgsAw-unsplash.jpg"height="500" width="700" class="hide">
+        <img src="resources/images/war/duncan-kidd-Cju-BkSkM1k-unsplash.jpg" name="slide" height="500" width="700" >
+        <!-- <img src="resources/images/war/stijn-swinnen-qwe8TLRnG8k-unsplash.jpg"height="500" width="700"class="hide">
+        <img src="resources/images/war/specna-arms-kVVKHGNgsAw-unsplash.jpg"height="500" width="700" class="hide"> -->
+        
+        <script type="text/javascript">
+            var picnumber= 1
+            function slideshow(){
+                document.images.slide.src=eval("image"+picnumber+".src")
+                if(picnumber<3)
+                picnumber++
+                else
+                picnumber=1
+                setTimeout("slideshow()", 3500)
+            }
+            slideshow()
+        </script>
+        
     
     </section>
 
