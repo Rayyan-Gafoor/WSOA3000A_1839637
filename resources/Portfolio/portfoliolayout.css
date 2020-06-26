@@ -66,7 +66,7 @@
 .container-slide{
     width: 60%;
     margin: auto;
-    border: 5px solid red;
+    border: 5px solid rgba(87, 5, 46, 0.527);
      overflow: hidden;
      position: relative;
 }
@@ -76,17 +76,24 @@
     height: 30%;
 }
 .slide img{
+    
     width: 80%;
     height: 20%;
 }
+.navarrows{
+    padding: 10px;
+ background-color: #f7add58a;
+}
 
 #prev{
+    
     position: absolute;
     top: 50%;
     z-index: 10;
+    width: 5%;
     left: 5%;
     font-size: 30px;
-    color: white;
+    color: black;
     /* opacity: 0.8; */
     cursor: pointer;
 }
@@ -94,6 +101,7 @@
     position: absolute;
     top: 50%;
     z-index: 10;
+    width: 5%;
     right: 5%;
     font-size: 30px;
     color: white;
