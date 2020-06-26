@@ -62,4 +62,42 @@
         max-width: 300px;
         background-color: goldenrod;
     }
+
+.container-slide{
+    width: 60%;
+    margin: auto;
+    border: 5px solid red;
+     overflow: hidden;
+     position: relative;
+}
+.slide{
+    display: flex;
+    width: 135%;
+    height: 30%;
+}
+.slide img{
+    width: 76%;
+    height: 30%;
+}
+
+#prev{
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    left: 5%;
+    font-size: 30px;
+    color: white;
+    /* opacity: 0.8; */
+    cursor: pointer;
+}
+#next{
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    right: 5%;
+    font-size: 30px;
+    color: white;
+    /* opacity: 0.8; */
+    cursor: pointer;
+}
 }
