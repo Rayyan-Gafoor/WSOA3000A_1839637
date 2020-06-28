@@ -63,6 +63,7 @@
         background-color: rgba(119, 7, 76, 0.87);
         align-items: center;
         border: 1px rgb(219, 172, 18) solid;
+        box-shadow: 2px 2px 5px rgba(231, 180, 12, 0.685);
 
     }
     .blogsbox ol:hover{
@@ -71,6 +72,7 @@
     .blogsbox ol li:hover{
         background: linear-gradient(rgba(155, 20, 83, 0.76),rgba(255, 248, 251, 0.705));
         color: rgb(119, 0, 60);
+        box-shadow: 7px 7px 10px rgba(231, 180, 12, 0.685);
         text-shadow: black;
     }
     .blogsbox ol li p a{

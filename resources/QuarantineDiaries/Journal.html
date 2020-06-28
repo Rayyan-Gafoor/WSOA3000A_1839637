@@ -4,131 +4,259 @@
         <title>
             Quarantine Diaries
         </title>
-        <link rel="stylesheet" type="text/css" href="../css/index.css" />
+        <meta charset="UTF-8">
+        <meta name="author" content="Rayyan Gafoor">
+        <meta name="description" content="Daily thought concieved during the lockdown">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="../css/index.css" /> 
+        <link rel="stylesheet" type="text/css" href="JournalCSS.css" /> 
+        <script src="../../Java.js" tyep="text/javascript" async></script>
+        <script src="JournalJS.js" tyep="text/javascript" async></script>
     </head>
     <body>
-        <section class="MenuBar">
-            <a href="../../../index.html">Home</a>
-            <a href="../blogs/Blogs.html">Blogs</a>
-            <a href="../Poetry/Poems.html">Poetry</a>
-            <a class="active" href="Journal.html">Journal</a>
-            <a href="../war/War.html">War Journal</a>
-            <a href="#about">About</a>
-            <a href="#contact">Contact</a>
-        </section>
+        <ul id="DropDownMenu">
+            <li><a href="../../index.html" onmouseover="drop('minimenu1')"  onmouseout="close()">Home</a>
+                <section id="minimenu1"  onmouseout="close()">
+                        <a href="../../index.html">About</a>
+                        <a href="../../index.html">Recents</a>
+                        <a href="../../index.html">War Pictures</a>
+                        <a href="../../index.html">Contact</a>
+                </section>
+            </li>
+            <li><a href="../blogs/Blogs.html" onmouseover="drop('minimenu2')"  onmouseout="close()">Blogs</a>
+                <section id="minimenu2" onmouseout="close()">
+                            Archive:<br>
+                        <a href="../blogs/blog17.html">Blog 17-<br> The Multi-Defined Interactvity</a>
+                        <a href="../blogs/blog16.html">Blog 16-<br> Dealing With Covid-19 As A Student</a>
+                        <a href="../blogs/blog15.html">Blog 15-<br> Spiders of the Internet</a>
+                </section>
+            </li>
+            <li><a href="../Poetry/Poems.html">Poetry</a></li>
+            <li><a class="active" href="../QuarantineDiaries/Journal.html">Journal</a></li>
+            <li><a href="../war/War.html">WarJournal</a></li>
+            <li><a href="../Portfolio/Portfolio.html">Portfolio</a></li>
+        </ul>
+        <section style="clear:both"></section>
+        <section class="container">
+            <img class="navarrows" src="../images/icons/prev.png" id="prev"  width="10%" height="10%">
+    
+        <img class="navarrows" src="../images/icons/next .png" id="next" width="10%" height="10%">
+           
+            <section class="box">
         <h1>My Journal</h1>
         <h3>
-            Quarantine Diaries!
+            The Quarantine Diaries!
         </h3>
         <p>
             These are the daily thoughts I had during the Covid-19 Crises. I've had a lot of free time to relfect on many of my thoughts.
             Perhaps I'm not the only who thought about these things. Perhaps my exposure to war has darkened my Mind.
             Either way I think its time that they see the light.
         </p>
-        <p>
-            <h3> The Singing Winds</h3>
-            <h5>01/04/2020</h5>
-            <figure>
-                <img src="../images/wind.jpg"
-                   alt="books on a shelf:)"
-                   width="600"
-                     height="400">
-                       
-                     <figcaption>
-                         <!--  -->
-                     </figcaption>
-                    </figure>
-            So today I tried drugs for the first time.
-            I thougt hey I'm isolated in my home and this is the safest enovironment for my to experiment.
-            Well I was wrong, I know realise what Van Gogh saw when he painted The Starry Night. 
-            I went into a state of psychosis.
-            I heard people calling me, voices I've never heard before, I began to have hallucinations that seemed like they were stuck on repeat.
-            That's when i realised that these hallucinations were the product of my memories, memories which I wish to forget.
-            Have you ever tried so had to forget a thought, that the it just keeps coming back stronger. That is when 
-            I heard it, the soothing sounds of the Winds.   
-        </p>
-        <p>
-            <h3>The Others</h3>
-            <h5>05/04/2020</h5>
-            <figure>
-                <img src="../images/other.jpg"
-                   alt="books on a shelf:)"
-                   width="400"
-                     height="400">
-                       
-                     <figcaption>
-                         <!--  -->
-                     </figcaption>
-                    </figure>
-            Today I woke up wondering what impression did I leave on everyone I've ever met?
-            What kind of person do they see when they hear my name? Perhaps a different version of ourselves exists within the minds of others.
-            Then I wondered does the version i have of myslef, show my true nature, or am I blinded by my own narcissistic tendencies.
-        </p>
-        <p>
-            <h3>The Snap...</h3>
-            <h5>06/04/2020</h5>
-            <figure>
-                <img src="../images/snap.jpg"
-                   alt="books on a shelf:)"
-                   width="300"
-                     height="300">
-                       
-                     <figcaption>
-                         <!--  -->
-                     </figcaption>
-                    </figure>
-            This might come across as dark, but... 
-            I think Thanos had the right idea. Perhaps this virus has some good hidden between the bad.
-        </p>
-        <p>
-            <h3>The Ultimate</h3>
-            <h5>09/04/2020</h5>
-            <figure>
-                <img src="../images/duck.jpg"
-                   alt="books on a shelf:)"
-                   width="400"
-                     height="300">
-                       
-                     <figcaption>
-                         <!--  -->
-                     </figcaption>
-                    </figure>
-            So, I had a dream, and it was kinda weird. By that I mean I was a Duck. Not like some super duck, no,
-            just a plain duck. When I woke up thought I was still a duck, and walked to my living room not realising that i was actaully waddeling.
-            Until I began to think out loud and instead of speaking english like a normal human being, I quacked. I sat there in silence asking myself WTF did I just do.
-
-            But then I began to recall whow amazing it felt to be a duck: I mean i could walk on land, swim and fly...
-            <br>I dont care what anyone says the DUCK is the Ultimate animal.
-        </p>
-        <p>
-            <h3>The Third Person</h3>
-            <h5>15/04/2020</h5>
-            I'm beging to think being alone for so long is messing with my head. I had the most peculiar dream, in fact i dont know if you could even call it a dream.
-            I remember falling asleep, but rigth after that i woke up, only to find my body lying, tossing and turning in the bed. I stood there trying to get my body to move at my command, but nothing.
-            all I could do is watch and wait until i woke up. 
-            I felt like a lost traveller, not knowing what to do, as if i have lost complete control. Then it occured to me how do we deal with the uncontrollable.
-            Like how do i figure out what im supposed to do, what trail do I follow?
-            But more importantly, how do I get back?    
-        </p>
-        <p>
-            <h3> Speed :)</h3>
-            <h5>Day 2610 of lockdown... Just kidding- 16/04/2020</h5>
-            So today I realised that I have a habit of timing myself regarding everything I do. Two of the most used methods I use is: Songs or, you guessed it, the Microwave.
-            lets talk about the songs, I'm pretty sure im not the only one who gets in the shower and is like: "I Have exactly two songs to get done" or "I can take my time today lets have a concert and perform 10 songs".
-            Now the Microwave... well thats where the weird comes in... At random moments i would just walk up to the microwave and set a timer and then try to get a certain number of task done before the beep. That includes going to the bathroom.
-        </p>
-        <p>
-            <h3>The last Letter</h3>
-            <h5>18/04/20</h5>
-            As a war journalist and photographer my life is constantly at risk. Everytime, before I go onto the battlefield, I attempt to write a letter.
-            At first the letters were meant for my mother, but even then I had nothing to say. How exatly to speak to someone after you have died. 
-            Once my mother passed, I still attempted to write those letters. I would start off:
-            <p>
-                Dear... *blank*
-
-            </p>
-            And so they would remain. No final words. No one to read it. But funny enough its those empty letters, that silence that speaks to me the most.
-            So if you ever wonder why there is a box full of empty letters, this is why. I've found that silence is the best conversation, even if it is just a goodbye. 
-        </p>
+         <section class="slide">
+                <section class="note" id="lastclone">
+                    <p>
+                        <h3>The last Letter</h3>
+                        <h5>18/04/20</h5>
+                        <figure>
+                            <img src="../images/26.jpg"
+                               alt="books on a shelf:)"
+                               width="400"
+                                 height="300">
+                                   
+                                 <figcaption>
+                                     
+                                 </figcaption>
+                                </figure>
+                        As a war journalist and photographer my life is constantly at risk. Everytime, before I go onto the battlefield, I attempt to write a letter.
+                        At first the letters were meant for my mother, but even then I had nothing to say. How exatly to speak to someone after you have died. 
+                        Once my mother passed, I still attempted to write those letters. I would start off:
+                        <p>
+                            Dear... *blank*
+            
+                        </p>
+                        And so they would remain. No final words. No one to read it. But funny enough its those empty letters, that silence that speaks to me the most.
+                        So if you ever wonder why there is a box full of empty letters, this is why. I've found that silence is the best conversation, even if it is just a goodbye. 
+                    </p>
+                </section>
+                <section class="note">
+                    <p>
+                        <h3> The Singing Winds</h3>
+                        <h5>01/04/2020</h5>
+                        <figure>
+                            <img src="../images/wind.jpg"
+                               alt="books on a shelf:)"
+                               width="400"
+                                 height="400">
+                                   
+                                 <figcaption>
+                                     
+                                 </figcaption>
+                                </figure>
+                        So today I tried drugs for the first time.
+                        I thougt hey I'm isolated in my home and this is the safest enovironment for my to experiment.
+                        Well I was wrong, I know realise what Van Gogh saw when he painted The Starry Night. 
+                        I went into a state of psychosis.
+                        I heard people calling me, voices I've never heard before, I began to have hallucinations that seemed like they were stuck on repeat.
+                        That's when i realised that these hallucinations were the product of my memories, memories which I wish to forget.
+                        Have you ever tried so had to forget a thought, that the it just keeps coming back stronger. That is when 
+                        I heard it, the soothing sounds of the Winds.   
+                    </p>
+                </section>
+               
+                <section class="note">
+                    <p>
+                        <h3>The Others</h3>
+                        <h5>05/04/2020</h5>
+                        <figure>
+                            <img src="../images/other.jpg"
+                               alt="books on a shelf:)"
+                               width="400"
+                                 height="400">
+                                   
+                                 <figcaption>
+                                    
+                                 </figcaption>
+                                </figure>
+                        Today I woke up wondering what impression did I leave on everyone I've ever met?
+                        What kind of person do they see when they hear my name? Perhaps a different version of ourselves exists within the minds of others.
+                        Then I wondered does the version i have of myslef, show my true nature, or am I blinded by my own narcissistic tendencies.
+                    </p>
+                </section>
+                <section class="note">
+                    <p>
+                        <h3>The Snap...</h3>
+                        <h5>06/04/2020</h5>
+                        <figure>
+                            <img src="../images/snap.jpg"
+                               alt="books on a shelf:)"
+                               width="300"
+                                 height="300">
+                                   
+                                 <figcaption>
+                                    
+                                 </figcaption>
+                                </figure>
+                        This might come across as dark, but... 
+                        I think Thanos had the right idea. Perhaps this virus has some good hidden between the bad.
+                    </p>
+                </section>
+                <section class="note">
+                    <p>
+                        <h3>The Ultimate</h3>
+                        <h5>09/04/2020</h5>
+                        <figure>
+                            <img src="../images/duck.jpg"
+                               alt="books on a shelf:)"
+                               width="400"
+                                 height="300">
+                                   
+                                 <figcaption>
+                                     
+                                 </figcaption>
+                                </figure>
+                        So, I had a dream, and it was kinda weird. By that I mean I was a Duck. Not like some super duck, no,
+                        just a plain duck. When I woke up thought I was still a duck, and walked to my living room not realising that i was actaully waddeling.
+                        Until I began to think out loud and instead of speaking english like a normal human being, I quacked. I sat there in silence asking myself WTF did I just do.
+            
+                        But then I began to recall whow amazing it felt to be a duck: I mean i could walk on land, swim and fly...
+                        <br>I dont care what anyone says the DUCK is the Ultimate animal.
+                    </p>
+                </section>
+                <section class="note">
+                    <p>
+                        <h3>The Third Person</h3>
+                        <h5>15/04/2020</h5>
+                        <figure>
+                            <img src="../images/life/federico-fioravanti-RSA3pnGxPTQ-unsplash.jpg"
+                               alt="books on a shelf:)"
+                               width="400"
+                                 height="300">
+                                   
+                                 <figcaption>
+                                     
+                                 </figcaption>
+                                </figure>
+                        I'm beging to think being alone for so long is messing with my head. I had the most peculiar dream, in fact i dont know if you could even call it a dream.
+                        I remember falling asleep, but right after that i woke up, only to find my body lying, tossing and turning in the bed. I stood there trying to get my body to move at my command, but nothing.
+                        all I could do is watch and wait until i woke up. 
+                        I felt like a lost traveller, not knowing what to do, as if i have lost complete control. Then it occured to me how do we deal with the uncontrollable.
+                        Like how do i figure out what im supposed to do, what trail do I follow?
+                        But more importantly, how do I get back?    
+                    </p>
+                </section>
+                <section class="note">
+                    <p>
+                        <h3> Speed :)</h3>
+                        <h5>Day 2610 of lockdown... Just kidding- 16/04/2020</h5>
+                        <figure>
+                            <img src="../images/brown-wooden-mouse-trap-with-cheese-bait-on-top-633881.jpg"
+                               alt="books on a shelf:)"
+                               width="400"
+                                 height="300">
+                                   
+                                 <figcaption>
+                                     
+                                 </figcaption>
+                                </figure>
+                        So today I realised that I have a habit of timing myself regarding everything I do. Two of the most used methods I use is: Songs or, you guessed it, the Microwave.
+                        lets talk about the songs, I'm pretty sure im not the only one who gets in the shower and is like: "I Have exactly two songs to get done" or "I can take my time today lets have a concert and perform 10 songs".
+                        Now the Microwave... well thats where the weird comes in... At random moments i would just walk up to the microwave and set a timer and then try to get a certain number of task done before the beep. That includes going to the bathroom.
+                    </p>
+                </section>
+                <section class="note">
+                    <p>
+                        <h3>The last Letter</h3>
+                        <h5>18/04/20</h5>
+                        <figure>
+                            <img src="../images/26.jpg"
+                               alt="books on a shelf:)"
+                               width="400"
+                                 height="300">
+                                   
+                                 <figcaption>
+                                     
+                                 </figcaption>
+                                </figure>
+                        As a war journalist and photographer my life is constantly at risk. Everytime, before I go onto the battlefield, I attempt to write a letter.
+                        At first the letters were meant for my mother, but even then I had nothing to say. How exatly to speak to someone after you have died. 
+                        Once my mother passed, I still attempted to write those letters. I would start off:
+                        <p>
+                            Dear... *blank*
+            
+                        </p>
+                        And so they would remain. No final words. No one to read it. But funny enough its those empty letters, that silence that speaks to me the most.
+                        So if you ever wonder why there is a box full of empty letters, this is why. I've found that silence is the best conversation, even if it is just a goodbye. 
+                    </p>
+                </section>
+                <section class="note" id="firstclone" >
+                    <p>
+                        <h3> The Singing Winds</h3>
+                        <h5>01/04/2020</h5>
+                        <figure>
+                            <img src="../images/wind.jpg"
+                               alt="books on a shelf:)"
+                               width="400"
+                                 height="400">
+                                   
+                                 <figcaption>
+                                    
+                                 </figcaption>
+                                </figure>
+                        So today I tried drugs for the first time.
+                        I thougt hey I'm isolated in my home and this is the safest enovironment for my to experiment.
+                        Well I was wrong, I know realise what Van Gogh saw when he painted The Starry Night. 
+                        I went into a state of psychosis.
+                        I heard people calling me, voices I've never heard before, I began to have hallucinations that seemed like they were stuck on repeat.
+                        That's when i realised that these hallucinations were the product of my memories, memories which I wish to forget.
+                        Have you ever tried so had to forget a thought, that the it just keeps coming back stronger. That is when 
+                        I heard it, the soothing sounds of the Winds.   
+                    </p>
+                </section>
+                
+                
+            </section>
+       
+    </section>
+    </section>
     </body>
 </html>

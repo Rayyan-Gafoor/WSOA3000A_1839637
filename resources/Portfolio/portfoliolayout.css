@@ -188,4 +188,17 @@
 
     }
 
+
+    .for_slick_slider{
+        display: flex;
+    }
+    .for_slick_slider .items{
+        width: 30px;
+        height: 25px;
+        margin: 5px;
+    }
+    .for_slick_slider .items .img{
+        width: 30px;
+        height: 25px;
+    }
 }

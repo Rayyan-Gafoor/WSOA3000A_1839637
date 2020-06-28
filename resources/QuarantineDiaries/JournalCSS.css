@@ -1,0 +1,107 @@
+@media(min-width:768px){
+
+    body {
+        margin: 0;
+        /*font-family: Times, Helvetica, sans-serif;*/
+        color: rgb(114, 36, 68) ; 
+        background-color:rgb(255, 236, 242) ;
+        padding: 0;
+        background-image: url("../images/blogs.jpg"); 
+        background-size: cover;
+       
+    }
+    .container{
+        padding: 50px;
+        /* display: flex;
+        flex-direction: column;
+        background: linear-gradient(white, gold);
+        align-items: center; */
+    }
+    .box{
+         /* display: flex;
+        flex-direction: column;
+        align-items: center;  */
+        width: 80%;
+        margin: auto;
+        background: linear-gradient(rgba(51, 3, 14, 0.815), rgb(105, 76, 81));
+        color: honeydew;
+        overflow: hidden;
+        border: 1px solid goldenrod;
+        padding: 50px;
+        align-items: center;
+        position: relative;
+    }
+    .box h1{
+        align-self: center;
+        font-size: 50px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-shadow: 2px 2px 0px rgb(187, 131, 11);
+        border-top: 2px solid rgb(187, 131, 11) ;
+        border-bottom: 2px solid rgb(187, 131, 11) ;
+    
+    }
+    .box h3{
+        align-self: center;
+        font-size: 35px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-shadow: 2px 2px 0px rgb(187, 131, 11);
+        border-bottom: 1px solid rgb(187, 131, 11) ;
+    
+    }
+    .slide{
+        display: flex;
+        width: 135%;
+        height: 30%
+        
+    }
+    .note{
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+        width: 800%;
+        height: 20%;
+        background: rgba(20, 20, 20, 0.774);
+        color:rgb(252, 243, 246) ;
+        border: goldenrod 1px solid;
+        box-shadow: 3px 3px 8px ivory;
+        align-items: center;
+        padding: 20px;
+        
+        /* display: flex;
+        flex-direction: column; */
+        /* flex: 50; */
+        /* align-items: center;
+        border: 2px solid goldenrod;
+        padding: 20px; */
+        /* width: 200%; */
+        /* max-height: 500px; */
+       
+    }
+    .navarrows{
+        padding: 10px;
+    background-color: #f80f5ca2;
+    }
+    #prev{
+        
+        position: absolute;
+        top: 80%;
+        z-index: 10;
+        width: 5%;
+        left: 3%;
+        font-size: 30px;
+        color: black;
+        /* opacity: 0.8; */
+        cursor: pointer;
+    }
+    #next{
+        position: absolute;
+        top: 80%;
+        z-index: 10;
+        width: 5%;
+        right: 3%;
+        font-size: 30px;
+        color: white;
+        /* opacity: 0.8; */
+        cursor: pointer;
+    }
+}
