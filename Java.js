@@ -12,7 +12,7 @@ button.addEventListener ("click", function(e)
      //alert("change colour");
      console.log("pressed");
 });
-
+//DropDown Menu java
 var timeout	= 0;
 var closetimer	= 1000;
 var item= 0;
@@ -41,9 +41,45 @@ function close(){
 document.ondblclick = dropclose;
 document.onclick=drop;
 
+//My api Function for NASA API
+let searchButton= document.querySelector("#Search")
+// let userDate= document.getElementById("#DateFromUser").value;
+
+
+
+searchButton.addEventListener('click',()=>{
+    var userDate= document.getElementById("DateFromUser").value;
+    console.log("You Pressed A Button, Are your Proud of yourself?")
+    console.log(userDate)
+    sendApiRequest(userDate)
+})
+
+async function sendApiRequest(userInput){
+    let API_key="DM2dAUjmufZ40vhE5QJNVX2v5SBlkceiznhFLl9K"
+    let response= await fetch('https://api.nasa.gov/planetary/apod?api_key=DM2dAUjmufZ40vhE5QJNVX2v5SBlkceiznhFLl9K&date='+userInput);
+    console.log(response)
+    let data= await response.json()
+    console.log(data)
+    useApiData(data)
+}
+
+function useApiData(data){
+    document.querySelector("#image").src = data.url
+    document.querySelector("#content").innerHTML+= data.explanation
+}
 
 
 
 
 
 
+
+
+
+// function getInputValue(){
+//     // Selecting the input element and get its value 
+//     var inputVal = document.getElementById("DateFromUser").value;
+    
+//     // Displaying the value
+//     alert(DateFromUser);
+// }

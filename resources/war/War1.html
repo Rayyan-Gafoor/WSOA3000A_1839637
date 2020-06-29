@@ -4,20 +4,40 @@
         <title>
                My First War
         </title>
-        <meta>
+        <meta name="author" content="Rayyan Gafoor">
+    <meta name="description" content="War main page">
+    <link rel="stylesheet" type="text/css" href="../css/index.css" />
+    <link rel="stylesheet" type="text/css" href="War.css" />
+    <script src="War.js" type="module" async></script>
+    <script src="../../Java.js" tyep="text/javascript" async></script>
         <link rel="stylesheet" type="text/css" href="../css/index.css" />
     </head>
     <body>
-        <section class="MenuBar">
-            <a href="../../index.html">Home</a>
-            <a href="../blogs/Blogs.html">Blogs</a>
-            <a href="../Poetry/Poems.html">Poetry</a>
-            <a href="../QuarantineDiaries/Journal.html">Journal</a>
-            <a class="active" href="../war/War.html">War Journal</a>
-            <a href="#about">About</a>
-            <a href="#contact">Contact</a>
-            
-        </section>
+        <ul id="DropDownMenu">
+            <li><a href="../../index.html" onmouseover="drop('minimenu1')"  onmouseout="close()">Home</a>
+                <section id="minimenu1"  onmouseout="close()">
+                        <a href="../../index.html">About</a>
+                        <a href="../../index.html">Recents</a>
+                        <a href="../../index.html">War Pictures</a>
+                        <a href="../../index.html">Contact</a>
+                </section>
+            </li>
+            <li><a href="../blogs/Blogs.html" onmouseover="drop('minimenu2')"  onmouseout="close()">Blogs</a>
+                <section id="minimenu2" onmouseout="close()">
+                            Archive:
+                        <!-- <a href="#">Blog one</a> -->
+                        <a href="../blogs/blog17.html">Blog 17</a>
+                        <a href="../blogs/blog18.html">Blog 18</a>
+                        <a href="../blogs/blog19.html">Blog 19 </a>
+                </section>
+            </li>
+            <li><a href="../Poetry/Poems.html">Poetry</a></li>
+            <li><a href="../QuarantineDiaries/Journal.html">Journal</a></li>
+            <li><a class="active" href="War.html">WarJournal</a></li>
+            <li><a href="../Portfolio/Portfolio.html">Portfolio</a></li>
+        </ul>
+        <section style="clear:both"></section>
+        
        
         <Section class="text">
             <article> 
