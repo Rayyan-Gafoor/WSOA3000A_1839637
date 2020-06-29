@@ -1,0 +1,163 @@
+@media(min-width:768px){
+
+    body {
+        margin: 0;
+        /*font-family: Times, Helvetica, sans-serif;*/
+        color: rgb(114, 36, 68) ; 
+        background:linear-gradient(rgb(31, 31, 31), rgba(141, 4, 38, 0.623)) ;
+        padding: 0;
+        /* background-image: url("../images/blogs.jpg");  */
+
+        background-size: cover;
+       
+    }
+    .container{
+        padding: 50px;
+        /* display: flex;
+        flex-direction: column;
+        background: linear-gradient(white, gold);
+        align-items: center; */
+    }
+    .box{
+         /* display: flex;
+        flex-direction: column;
+        align-items: center;  */
+        width: 80%;
+        margin: auto;
+        background: linear-gradient(rgba(51, 3, 14, 0.815), rgb(105, 76, 81));
+        color: honeydew;
+        box-shadow: 1px 1px 2px rgb(102, 1, 40);
+        overflow: hidden;
+        border: 1px solid goldenrod;
+        padding: 50px;
+        align-items: center;
+        position: relative;
+    }
+    .box h1{
+        align-self: center;
+        font-size: 50px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-shadow: 2px 2px 0px rgb(187, 131, 11);
+        border-top: 2px solid rgb(187, 131, 11) ;
+        border-bottom: 2px solid rgb(187, 131, 11) ;
+    
+    }
+    .box h3{
+        align-self: center;
+        font-size: 35px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-shadow: 2px 2px 0px rgb(187, 131, 11);
+        border-bottom: 1px solid rgb(187, 131, 11) ;
+    
+    }
+    .slide{
+        display: flex;
+        width: 135%;
+        height: 30%
+        
+    }
+    .note{
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+        width: 800%;
+        height: 20%;
+        background: rgba(20, 20, 20, 0.774);
+        color:rgb(252, 243, 246) ;
+        border: goldenrod 1px solid;
+        box-shadow: 3px 3px 8px ivory;
+        align-items: center;
+        padding: 20px;
+        
+        /* display: flex;
+        flex-direction: column; */
+        /* flex: 50; */
+        /* align-items: center;
+        border: 2px solid goldenrod;
+        padding: 20px; */
+        /* width: 200%; */
+        /* max-height: 500px; */
+       
+    }
+    .navarrows{
+        padding: 10px;
+    background-color: #f80f5ca2;
+    }
+    #prev{
+        
+        position: absolute;
+        top: 80%;
+        z-index: 10;
+        width: 5%;
+        left: 3%;
+        font-size: 30px;
+        color: black;
+        /* opacity: 0.8; */
+        cursor: pointer;
+    }
+    #next{
+        position: absolute;
+        top: 80%;
+        z-index: 10;
+        width: 5%;
+        right: 3%;
+        font-size: 30px;
+        color: white;
+        /* opacity: 0.8; */
+        cursor: pointer;
+    }
+    .note p a{
+        color: white;
+    }
+    .note p a:hover{
+
+        color: rgb(209, 125, 16);
+        font-size: 20px;
+        background: linear-gradient(rgb(117, 2, 46), rgb(10, 0, 0));
+    }
+    .container1{
+        display: flex;
+        flex-direction:column ;
+        align-items: center;
+        background: rgb(34, 2, 15);
+        padding: 50px;
+    }
+    .box1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid goldenrod;
+        padding: 20px;
+        width: 80%;
+        box-shadow: 2px 2px 5px goldenrod;
+        background: linear-gradient(rgb(102, 29, 57), rgb(17, 13, 15), rgb(94, 2, 37));
+    }
+    .text{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid goldenrod;
+        width: 75%;
+        background: black;
+        align-items: center;
+        color: white;
+        padding: 20px;
+    }
+    .MyHeading{
+        font-size: 50px;
+    }
+    .mynav{
+        display: flex;
+        width: 50%;
+        flex-direction: column;
+        align-items: center;
+        background: rgba(190, 3, 97, 0.61) ;
+        color: white;
+    }
+    .mynav a{
+        color: honeydew;
+    }
+    .mynav a:hover{
+        background: linear-gradient(rgb(61, 1, 26), rgb(235, 133, 164));
+        font-size: 20px;
+    }
+}
