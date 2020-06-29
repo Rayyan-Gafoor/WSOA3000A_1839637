@@ -46,8 +46,10 @@ let searchButton= document.querySelector("#Search")
 // let userDate= document.getElementById("#DateFromUser").value;
 let MessageButton= document.querySelector(".Submitbutton")
 MessageButton.addEventListener('click',()=>{
+    var userName= document.getElementById("UsersName").value;
     console.log("You Pressed A Button, Are your Proud of yourself?")
-    alert("Your Message Has Been Sent!")
+    alert("Your Message Has Been Sent! Thank you "+userName)
+    userName=""
 })
 
 
