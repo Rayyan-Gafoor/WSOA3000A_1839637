@@ -41,13 +41,104 @@
                 <section class="mainbox">
                     <section class="Blog">
                         <h1>The Importance Of External Dependecies.</h1>
+                        <h2>Discover The Cosmos</h2>
                         <p>
-
+                            Hi there my fellow weirdos, Im sure you know my name, Zariyah, but I was recently told to always state who I am. Apperantly it will help me in my journey to enlightenment.
+                            Please dont ask me why, because like you I'm lost and confused. Anyway lets see what we have today:<br>
+                            So as a web designer I wanted to implement something interesting to my website, something that everyone can appreciate.
+                            As you have noticed in my latest blogs, I've been captivated by the idea of the Cosmos. As a person, I suffer from not knowing my place in the universe, what my purpose is.
+                            For awhile I considered myself to be lost, and so I wanted to create something for people like me. People that i looking to explore the unkown, to cross boundaries that mere mortals can not.
+                            As an attempt to ahieve this, I implemented a basic NASA API: APOD (Astronomy Picture of the Day).<br>
+                            Lets take a look at the details further below:<br>
                             
                         </p>
+                        <p>
+                            So for those of you that are still confused (don't worry about it, I might be just as confused as you when it comes to this), lets take a closer look at what an API is.
+                            According to my understanding an API (application program interface) is a set of tools and protocols used to build applications using digital communication to transfer and collect data securely across a variety of platforms.
+                            They help improve our websites and other applications, while getting rid of all those unnecessary steps involed in the developing process.
+                            In fact with just the push of a button we have the ability to do this. When we do this not only are we making the site more interesting, but we are also creating a better and more meaningful user experience.
+                        </p>
+                        <p>
+                            What is the NASA APOD API:<br>
+                            The API is used to return images and descriptions for those images. A new image is taken everyday and thus the name Astronomy Picture of the Day.
+                            It does this by allowing the developer to access imagery and metadata, which is accessed through using an API key.
+                            See the website below on what the API is :<br>
+                            <iframe src="https://api.nasa.gov/" width="750" height="700"></iframe>
+
+                        </p>
+                        <p>
+                            Why Did I Choose This API:<br>
+                            Honestly speaking, it speaks to me as person, and to my personality. I love everything about the Cosmos, everything from the "why" to the "wow that looks so amazing".
+                            As a child I wanted to walk in my father's shoes, I wanted to be soldier, to be honest, this was the only real thing I knew about him. Perhaps thats what contributes to my state of being lost and constantly wandering, because I chose to follow someone I never knew.
+                            But anyway, with the imagination I had back then, I did not just want to become any soldier, nope, I wanted to be an Inter-Galactic Space-Soldier. I wanted to see space, I wanted to explore it.
+                            As an adult I now realise that is not completely possible. Being confined in Johannesburg these past few months made me realise that perhaps the purpose that I am searching for does not exist here, that I should look further.
+                            So with the rebirth of my dream, I decided to implement this API.<br>
+
+                            So this is for the lost, for the seekers and wanderers. Take a look at the API to get a step closer to exploring the universe.
+                        </p>
+                        <p>
+                            <h2>Alternatives to creating the Illsuion of Interactvity</h2>
+                            So basically before I decided on implementing this API, I had to do my research.
+                            I wanted to find different ways of bring my website to life, making it feel almost as real as possible.
+                            So I turned my vision towards javascript. OH, the endless possibilities. Anyway, as most of you have seen, I have two Journals and a Portfolio.
+                            <lI>
+                                Quarantine Journal- Just randoms thoughts I have had during the lockdown.
+                            </lI>
+                            <li>
+                                War Journal- Documenting my experience as a war journalist.
+                            </li>
+                            <li>
+                                Portfolio- A portfolio showing some of my work as a photography
+                            </li>
+
+                            So I asked myself, how can I make these two features more realistic, and increase user experience and interactvity.
+                            Well I thought, hey it is a journal, so how about we make it act and feel like you reading from a journal, and create the Illsuion of turning pages.
+                            Unfortunately, this was not done using an external dependency, although we did add a similar feature. In fact I am sure using an external dependency will help improve this.
+                            Here is a list of external libraries one could use:<br>
+                            <li>
+                                jQuery
+                            </li>
+                            <li>
+                                Slick
+                            </li>
+                            <li>
+                                Glimmer.js
+                            </li>
+                            <li>
+                                Vue.js
+                            </li>
+                            Another alternative could be using a Cloud hosted Web services and API such as Pusher, to create and implement a real-time commenting system.
+                        </p>
+                        <P>
+                            Technical implementation<br><br>
+                            <h1>HTML implementation</h1>
+                            <img src="html_implementation.png" alt="" srcset="" width="50%" height="50%">
+                            <br><br>
+                            <p>
+                                Using a basic implementation of html, a user input is created to receive the date input in the form : YYYY-MM-DD<br>
+                                Creating a search button is then use to initiate the javascript function.<br>
+                                Using the img and div elements, an ID is used to identify each. These are the placeholders for where the data being received need to be stored
+                            </p>
+                            <h1>Javascript implementation</h1>
+                            <img src="Java_implementation.png" alt="" srcset="" width="50%" height="50%">
+                            <br><br>
+                            <p>
+                                The code starts off by creating an Event Listener, which is initiated as soon as the button implemented in the html file is "clicked".
+                                When this happen, the input given by the user is then stored in the variable "userDate".
+                                This variable is then used in the function "sendApiRequest"<br>
+                                The sendApiRequest function is used to request the data needed using the Api key, and then appending the stored "userDate" variable at the end of the API key.
+                                Once this data is then received it is stored in the variable "data".<br>
+                                The "data" variable is used in the UseApiData function. This is basically used to display the data we have recieved onto our website.
+                                In our case the data is the image source accompanied by the explanation for the image. 
+
+                            </p>
+                        </P>
+                        <P>
+                            Well thats it for my external dependency. Thank you guys so much, till we meet again.
+                        </P>
                         <h6>
                             Zariyah
-                            Date: 11 Feb 2020
+                            Date: 24 June 2020
                         </h6>
                 </section>
                 <section class="navmenu">
@@ -55,7 +146,7 @@
                     Previous Blog-
                     <a href="blog18.html">BLOG 18 -The Start of a "New Journey"</a><br>
                     Next Blog-
-                        <a href="blog20.html">BLOG 20 -</a>
+                        <a href="blog20.html">BLOG 20 -The Importance of Philosophy</a>
                     
                 </section>
                    

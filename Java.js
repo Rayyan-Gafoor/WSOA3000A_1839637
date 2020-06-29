@@ -40,13 +40,6 @@ function close(){
 }
 document.ondblclick = dropclose;
 document.onclick=drop;
-//contact message is sent
-// let MessageButton= document.querySelector("#Submitbutton")
-// MessageButton.addEventListener('click',()=>{
-//     var userName= document.getElementById("UsersName").value
-//     alert("Your Message Has Been Sent! Thank you "+userName)
-//     userName="";
-// });
 
 
 //My api Function for NASA API
