@@ -105,7 +105,7 @@
                 <label>Message:</label>
                 <textarea></textarea>
             </section>
-            <button class="Submitbutton">SEND</button>
+            <button class="Submitbutton" id="Submitbutton">SEND</button>
             <!-- <a class="Submitbutton">SEND</a> -->
         
         </section>    
@@ -127,7 +127,15 @@
 
 </section>
 </section>
-
+<script>
+    //contact message is sent
+let MessageButton= document.querySelector("#Submitbutton")
+MessageButton.addEventListener('click',()=>{
+    var userName= document.getElementById("UsersName").value
+    alert("Your Message Has Been Sent! Thank you "+userName)
+    userName="";
+});
+</script>
 
 
 <script src="Java.js" type="module" async></script>
